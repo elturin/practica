@@ -121,7 +121,7 @@ vector2 = new ol.layer.Vector({
               title: 'Taxi',
               source: new ol.source.Vector({
                  //projection : 'EPSG:4326',
-                 url: 'http://geoauto.pe/web/service/json/puntoInteres.php',
+                 url: 'https://geoidep.gob.pe/georreferencia/bus.php',
 				 //url: 'https://openlayers.org/en/v5.1.3/examples/data/geojson/countries.geojson',
 				 format: new ol.format.GeoJSON()
               }),style: myStyle
